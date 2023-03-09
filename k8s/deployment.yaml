@@ -25,7 +25,7 @@ spec:
         - name: Vless_UUID
           value: "802f44b7-1d19-400c-ad2e-f4d300bf4b1d"
         - name: Vless_Path
-          value: "//dghGjutKw"
+          value: "/dghGjutKw"
         - name: Vmess_UUID
           value: "802f44b7-1d19-400c-ad2e-f4d300bf4b1d"
         - name: Vmess_Path
