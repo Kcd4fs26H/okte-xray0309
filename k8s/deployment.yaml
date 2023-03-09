@@ -1,34 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: ccxl
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: ccxl
   template:
     metadata:
       labels:
-        app: ray
+        app: ccxl
     spec:
       containers:
       - image: okteto.dev/ray:latest
-        name: ray
+        name: ccxl
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: Site
-          value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
+          value: "https://github.com/happyevero/Html/ccxl/main/S-html.zip"
         - name: Vless_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "802f44b7-1d19-400c-ad2e-f4d300bf4b1d"
         - name: Vless_Path
-          value: "/vl555"
+          value: "//dghGjutKw"
         - name: Vmess_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "802f44b7-1d19-400c-ad2e-f4d300bf4b1d"
         - name: Vmess_Path
-          value: "/vm666"
+          value: "/XsqotmUzt"
         - name: Share_Path
           value: "/v2link"
