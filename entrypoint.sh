@@ -17,7 +17,7 @@ fi
 echo ${Vless_UUID}
 
 if [[ -z "${Vmess_Path}" ]]; then
-  Vmess_Path="XsqotmUzt"
+  Vmess_Path="/XsqotmUzt"
 fi
 echo ${Vmess_Path}
 
