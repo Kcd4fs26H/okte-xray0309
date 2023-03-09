@@ -13,7 +13,7 @@ spec:
         app: ccxl
     spec:
       containers:
-      - image: okteto.dev/ray:latest
+      - image: okteto.dev/ccxl:latest
         name: ccxl
         ports:
         - containerPort: 8080
